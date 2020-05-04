@@ -1,4 +1,4 @@
-package indi.xg.learn.thingkinginjava;
+package indi.xg.learn.thingkinginjava.initialization;
 
 /**
  * this关键字
