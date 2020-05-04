@@ -15,6 +15,8 @@ public class Parcel1 {
     }
 
     class Destination {
+        // 普通的内部类不能有static数据和static字段（属性和方法都不可以）
+//        static int a = 1;
         private String label;
         Destination(String whereTo) {
             label = whereTo;
