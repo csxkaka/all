@@ -1,6 +1,5 @@
 package indi.xg.learn.thingkinginjava.generics;
 
-import javax.xml.ws.Holder;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
