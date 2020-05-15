@@ -1,5 +1,7 @@
 package indi.xg.learn.thingkinginjava.generics;
 
+import indi.xg.learn.thingkinginjava.util.Generator;
+
 /**
  * 一个通用的Generator
  * @param <T>

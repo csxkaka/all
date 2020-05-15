@@ -1,5 +1,7 @@
 package indi.xg.learn.thingkinginjava.generics;
 
+import indi.xg.learn.thingkinginjava.util.Generator;
+
 /**
  * 使用生成器，生成斐波那契数列
  */

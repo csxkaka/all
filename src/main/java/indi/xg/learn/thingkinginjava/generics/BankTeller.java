@@ -1,5 +1,7 @@
 package indi.xg.learn.thingkinginjava.generics;
 
+import indi.xg.learn.thingkinginjava.util.Generator;
+
 import java.util.*;
 
 /**

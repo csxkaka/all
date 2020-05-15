@@ -1,6 +1,6 @@
 package indi.xg.learn.thingkinginjava.generics.coffee;
 
-import indi.xg.learn.thingkinginjava.generics.Generator;
+import indi.xg.learn.thingkinginjava.util.Generator;
 
 import java.util.Iterator;
 import java.util.Random;
