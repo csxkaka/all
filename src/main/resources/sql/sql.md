@@ -39,3 +39,24 @@
 		) dt
     )
  
+分组查询最近一条记录，主键是自增id，根据site_id分组，效率还行
+===
+    SELECT
+    	* 
+    FROM
+    	`air_data_day_original` 
+    WHERE
+    	id IN (
+    	SELECT
+    		id 
+    	FROM
+    	( SELECT site_id, max( report_time ), max( id ) AS id FROM `air_data_day_original` WHERE data_type = 1 GROUP BY site_id ) t 
+    	)
+    	
+分组查询最近一条记录，主键不是自增id，根据site_id分组，效率不高
+===
+    SELECT a.* FROM air_data_day_original a,( SELECT max( report_time ) AS report_time, site_id FROM air_data_day_original GROUP BY site_id ) AS tmp 
+    WHERE
+        tmp.report_time = a.report_time 
+        AND tmp.site_id = a.site_id 
+        AND a.data_type = 1
