@@ -30,7 +30,7 @@
 			SELECT
 				MIN(id) AS minid
 			FROM
-				air_sk_hour_statement_copy
+				`air_sk_hour_statement_copy`
 			GROUP BY
 				site_code,
 					query_time

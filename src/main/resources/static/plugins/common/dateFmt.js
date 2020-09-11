@@ -3,7 +3,7 @@
  * @param fmt   "yyyy-MM-dd hh:mm:ss"
  * @param date  Date类型
  */
-function dateFtt(fmt,date) {
+function dateFmt(fmt,date) {
     const o = {
         "M+" : date.getMonth()+1,                 //月份
         "d+" : date.getDate(),                    //日

@@ -5,7 +5,7 @@ package indi.xg.learn.thingkinginjava.util;
  */
 public class CountingGenerator {
     /**
-     * 因为自己定义的类名就是Boolean，所以后面的泛型需要写全面，下面方法的返回值也要写全名
+     * 因为自己定义的类名就是Boolean，所以后面的泛型需要写全名，下面方法的返回值也要写全名
      */
     public static class Boolean implements Generator<java.lang.Boolean> {
         private boolean value = false;
